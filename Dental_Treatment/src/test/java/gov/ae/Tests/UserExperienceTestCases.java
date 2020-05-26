@@ -67,8 +67,8 @@ public class UserExperienceTestCases extends TestBase {
     @Test(priority = 5 )
     public void validate_contact_required_field() {
         ValidateReuiredFields userCases = new ValidateReuiredFields(DriverManager.getDriver());
-        ExtentTest node1 = test.createNode("validate contact method validations");
-        ExtentManager.setExtentTest(node1);
+        test = test.createNode("validate contact method validations");
+        ExtentManager.setExtentTest(test);
         userCases.confirm_appointment();
         Assert.assertEquals(userCases.get_actual_contactprefererrorlbl(),userCases.get_expected_contactprefererrorlbl());
 
@@ -79,6 +79,8 @@ public class UserExperienceTestCases extends TestBase {
     @Test(priority = 6)
     public void validate_phone_required_field() {
         ValidateReuiredFields userCases = new ValidateReuiredFields(DriverManager.getDriver());
+        test = test.createNode("validate contact method validations");
+        ExtentManager.setExtentTest(test);
         userCases.confirm_appointment();
         userCases.check_phone_contact();
         Assert.assertEquals(userCases.get_actual_contactbyphoneerrorlbl(),userCases.get_expected_contactbyphoneerrorlbl());
