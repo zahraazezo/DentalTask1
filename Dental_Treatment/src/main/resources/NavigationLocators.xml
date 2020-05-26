@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+	<homepage>
+		<header>
+			<closebtn>
+				<xpath>//button[@class='btn btn-default' and contains(text(),"Close")]</xpath>
+			</closebtn>
+			<loginlink>
+				<xpath>.//i[@class = 'fa fa-user-circle-o fa-lg']</xpath>
+			</loginlink>
+
+			<!-- Services menu locators-->
+			<serviceMenu>
+				<xpath>.//a[text()='Services' and @data-toggle='dropdown']</xpath>
+			</serviceMenu>
+			<serviceli>
+				<xpath>.//ul[@class='dropdown-menu']//a[text()='Services']</xpath>
+			</serviceli>
+
+			<!-- Service search locators-->
+			<servicesrchtxt>
+				<xpath>.//input[@placeholder="Service Name"]</xpath>
+			</servicesrchtxt>
+
+			<servicesrchtxt>
+				<value>Dental Treatment</value>
+			</servicesrchtxt>
+
+			<servicesrchresullink>
+				<xpath>.//div[@id='searchResults']//span[text()='Dental Treatment']</xpath>
+			</servicesrchresullink>
+
+			<gotoservicelink>
+				<xpath>.//a[text()='Go to the e-service']</xpath>
+			</gotoservicelink>
+
+
+			<!--Dental Treatment login locators and data-->
+			<serviceusernametxt>
+				<xpath>.//input[@id="id_login_username"]</xpath>
+			</serviceusernametxt>
+			<serviceusernametxt>
+				<value>minhaeprod12</value>
+			</serviceusernametxt>
+			<servicepasswordtxt>
+				<xpath>.//input[@id="id_login_password"]</xpath>
+			</servicepasswordtxt>
+			<servicepasswordtxt>
+				<value>Cerner01</value>
+			</servicepasswordtxt>
+			<servicesigninbtn>
+				<xpath>.//button[@id="signin"]</xpath>
+			</servicesigninbtn>
+
+			<!--Dental Treatment service locators and data-->
+			<serviceappointmentsicon>
+				<xpath>.//span[@class='icon-client-appointments icon-block nav--icon']</xpath>
+			</serviceappointmentsicon>
+
+
+			<schedulenewappointmentbtn>
+				<xpath>//span[contains(text(),'Schedule a New Appointment')]</xpath>
+			</schedulenewappointmentbtn>
+
+			<reasonselect>
+				<xpath>.//span[@id='id_reason_id-button']</xpath>
+			</reasonselect>
+
+			<reasonselect>
+				<value>.//li[text()='Dental']</value>
+			</reasonselect>
+
+			<searchreasonbtn>
+				<xpath>.//input[@value='Search' and @name='send']</xpath>
+			</searchreasonbtn>
+
+			<viewallappointmentsbtn>
+				<xpath>(//a[contains(text(),'View All Appointments')])[1]</xpath>
+			</viewallappointmentsbtn>
+
+			<clinicselected>
+				<xpath>(.//ul[@class='list-divided-large']//li)[1]//span[text()='Al Dhaid Clinic - Sharjah']</xpath>
+			</clinicselected>
+
+			<selectappointmentbtn>
+				<xpath>(//button[contains(text(),'Select')])[1]</xpath>
+			</selectappointmentbtn>
+		</header>
+
+	</homepage>
+</locators>

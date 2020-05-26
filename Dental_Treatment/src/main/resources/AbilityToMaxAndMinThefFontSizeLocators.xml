@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+	<homepage>
+		<header>
+			<closebtn>
+				<xpath>//button[@class='btn btn-default' and contains(text(),"Close")]</xpath>
+			</closebtn>
+			<accessibilitybtn>
+				<xpath>//a[@title='Accessibility']</xpath>
+			</accessibilitybtn>
+			<plusbtn>
+				<xpath>//i[@class='fa fa-plus']</xpath>
+			</plusbtn>
+			<minusbtn>
+				<xpath>//i[@class='fa fa-minus']</xpath>
+			</minusbtn>
+		</header>
+
+	</homepage>
+</locators>

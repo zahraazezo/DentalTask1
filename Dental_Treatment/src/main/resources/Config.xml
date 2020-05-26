@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<locators>
+	<homepage>
+
+		<header>
+			<url>
+				<value>https://www.mohap.gov.ae/en/Pages/default.aspx</value>
+			</url>
+			<username>
+				<value>#minhaeprod12</value>
+			</username>
+			<password>
+				<value>Cerner01</value>
+			</password>
+		</header>
+
+	</homepage>
+
+
+
+</locators>

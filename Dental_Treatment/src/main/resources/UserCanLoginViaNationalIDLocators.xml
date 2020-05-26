@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+	<homepage>
+		<header>
+			<closebtn>
+				<xpath>//button[@class='btn btn-default' and contains(text(),"Close")]</xpath>
+			</closebtn>
+			<loginlink>
+				<xpath>.//i[@class = 'fa fa-user-circle-o fa-lg']</xpath>
+			</loginlink>
+
+			<!--login/Register locators and data-->
+			<usernametxt>
+				<xpath>.//input[@id="MainContent_txtUserName"]</xpath>
+			</usernametxt>
+			<usernametxt>
+				<value>minhaeprod12</value>
+			</usernametxt>
+			<passwordtxt>
+				<xpath>.//input[@id="MainContent_txtPassword"]</xpath>
+			</passwordtxt>
+			<passwordtxt>
+				<value>Cerner01</value>
+			</passwordtxt>
+			<loginbtn>
+				<xpath>.//input[@id="MainContent_btnLogin"]</xpath>
+			</loginbtn>
+
+			<UAEPassLoginEnimg>
+				<xpath>.//input[@id="MainContent_imgbtnUAEPassLoginEn"]</xpath>
+			</UAEPassLoginEnimg>
+
+			<userIdentifiertxt>
+				<xpath>.//input[@id="userIdentifier"]</xpath>
+			</userIdentifiertxt>
+
+
+		</header>
+
+	</homepage>
+</locators>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<locators>
+	<Appointments>
+	<!--Dental Treatment service locators and data-->
+	<serviceappointmentsicon>
+		<xpath>.//span[@class='icon-client-appointments icon-block nav--icon']</xpath>
+	</serviceappointmentsicon>
+
+
+		<confirmappointmentbtn>
+			<xpath>(//button[contains(text(),'Confirm your appointment')])[1]</xpath>
+		</confirmappointmentbtn>
+
+		<contactsymptomserrorlbl>
+			<xpath>.//small[@id='id_symptoms-error']</xpath>
+		</contactsymptomserrorlbl>
+
+		<contactsymptomserrorlbl>
+			<value>This field is required.</value>
+		</contactsymptomserrorlbl>
+
+
+		<contactprefererrorlbl>
+			<xpath>.//small[@id='id_prefer_secure_message_0-error']</xpath>
+		</contactprefererrorlbl>
+
+		<contactprefererrorlbl>
+			<value>This field is required.</value>
+		</contactprefererrorlbl>
+
+		<contactbyphonechk>
+			<xpath>(.//input[@name ='prefer_secure_message'])[2]</xpath>
+		</contactbyphonechk>
+
+		<contactbyphoneerrorlbl>
+			<xpath>.//small[@id='id_phone-error']</xpath>
+		</contactbyphoneerrorlbl>
+
+		<contactbyphoneerrorlbl>
+			<value>A phone number is required.</value>
+		</contactbyphoneerrorlbl>
+
+
+	</Appointments>
+</locators>
