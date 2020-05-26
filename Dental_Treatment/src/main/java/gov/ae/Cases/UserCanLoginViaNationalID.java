@@ -38,19 +38,19 @@ public class UserCanLoginViaNationalID {
         test.log(Status.INFO,"Click close button");
         closebtn = By.xpath(xml.getLocator("closebtn.xpath"));
         SeleniumUtils.wait(driver, closebtn, "Close button of the welcome pop up");
-        SeleniumUtils.clickElement(driver, closebtn, " The Welcome to Ministry of Health and Prevention Website close button");
+        SeleniumUtils.pressElement(driver, closebtn, " The Welcome to Ministry of Health and Prevention Website close button");
 
         test.log(Status.INFO,"Hit the login/register link");
         loginlink = By.xpath(xml.getLocator("loginlink.xpath"));
         SeleniumUtils.wait(driver, loginlink, " Register/Login link");
-        SeleniumUtils.clickElement(driver, loginlink, " Register/Login");
+        SeleniumUtils.pressElement(driver, loginlink, " Register/Login");
 
         SeleniumUtils.moveToTheNextTab(driver);
 
         test.log(Status.INFO,"Click the UAE pass login image ");
         UAEPassLoginEnimg = By.xpath(xml.getLocator("UAEPassLoginEnimg.xpath"));
         SeleniumUtils.wait(driver, UAEPassLoginEnimg, " UAEPassLoginEnimg image");
-        SeleniumUtils.clickElement(driver, UAEPassLoginEnimg, " UAEPassLoginEnimg");
+        SeleniumUtils.pressElement(driver, UAEPassLoginEnimg, " UAEPassLoginEnimg");
 
 
         test.log(Status.INFO," search for user Identifier ");

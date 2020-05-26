@@ -10,7 +10,9 @@ import gov.ae.utils.XMLReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class NavigateToServiceIn3Clicks {
     private WebDriver driver;
@@ -52,10 +54,13 @@ nav = new Navigation(driver);
         }
         SeleniumUtils.type(driver, servicesrchtxt, xml.getLocator("servicesrchtxt.value"), "UserName");
 
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ENTER).build().perform();// press enter
+
         test.log(Status.INFO,"  Click the search result ");
         servicesrchresullink = By.xpath(xml.getLocator("servicesrchresullink.xpath"));
         SeleniumUtils.wait(driver, servicesrchresullink, " search result");
-        SeleniumUtils.clickElement(driver, servicesrchresullink, " serviceMenu Menu");
+        SeleniumUtils.pressElement(driver, servicesrchresullink, " serviceMenu Menu");
 
         test.log(Status.INFO," Click the go to service ");
         gotoservicelink = By.xpath(xml.getLocator("gotoservicelink.xpath"));
@@ -63,7 +68,7 @@ nav = new Navigation(driver);
         if (SeleniumUtils.isElementPresent(driver, gotoservicelink, "Go to service button")) {
             clicksCount++;
         }
-        SeleniumUtils.clickElement(driver, gotoservicelink, " Go to service");
+        SeleniumUtils.pressElement(driver, gotoservicelink, " Go to service");
 
         SeleniumUtils.moveToTheNextTab(driver);
 
@@ -80,7 +85,7 @@ nav = new Navigation(driver);
         test.log(Status.INFO," Click sign in button \n");
         servicesigninbtn = By.xpath(xml.getLocator("servicesigninbtn.xpath"));
         SeleniumUtils.wait(driver, servicesigninbtn, " Login button");
-        SeleniumUtils.clickElement(driver, servicesigninbtn, " Login button");
+        SeleniumUtils.pressElement(driver, servicesigninbtn, " Login button");
 
         test.log(Status.INFO," Click the go to service \n");
 

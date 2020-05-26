@@ -36,17 +36,17 @@ public class AbilityToMaxAndMinTheFontSize {
         test.log(Status.INFO,"Click close button");
         closebtn = By.xpath(xml.getLocator("closebtn.xpath"));
         SeleniumUtils.wait(driver, closebtn, "Close button of the welcome pop up");
-        SeleniumUtils.clickElement(driver, closebtn, " The Welcome to Ministry of Health and Prevention Website close button");
+        SeleniumUtils.pressElement(driver, closebtn, " The Welcome to Ministry of Health and Prevention Website close button");
 
         test.log(Status.INFO,"Click the accessibility button");
         accessibilitybtn = By.xpath(xml.getLocator("accessibilitybtn.xpath"));
         SeleniumUtils.wait(driver, accessibilitybtn, " accessibility button");
-        SeleniumUtils.clickElement(driver, accessibilitybtn, "accessibility button");
+        SeleniumUtils.pressElement(driver, accessibilitybtn, "accessibility button");
 
         test.log(Status.INFO,"Click the + button");
         plusbtn = By.xpath(xml.getLocator("plusbtn.xpath"));
         SeleniumUtils.wait(driver, plusbtn, " accessibility button");
-        SeleniumUtils.clickElement(driver, plusbtn, "accessibility button");
+        SeleniumUtils.pressElement(driver, plusbtn, "accessibility button");
 
         WebElement domElement = driver.findElement(By.tagName("div"));
         String color = domElement.getCssValue("font-size");
@@ -54,7 +54,7 @@ public class AbilityToMaxAndMinTheFontSize {
         test.log(Status.INFO,"Click the - button");
         minusbtn = By.xpath(xml.getLocator("minusbtn.xpath"));
         SeleniumUtils.wait(driver, minusbtn, " minusbtn button");
-        SeleniumUtils.clickElement(driver, minusbtn, "minusbtn button");
+        SeleniumUtils.pressElement(driver, minusbtn, "minusbtn button");
 
         WebElement domElement1 = driver.findElement(By.tagName("div"));
         String color1 = domElement.getCssValue("font-size");

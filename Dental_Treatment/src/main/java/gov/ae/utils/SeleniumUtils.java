@@ -111,7 +111,7 @@ public class SeleniumUtils {
 	// Method to wait for specific condition
 	public static void wait(WebDriver driver, By itemToWaitFor, String ControlName) {
 
-		int timeToWait = 30;
+		int timeToWait = 50;
 		log.info("Waiting for max:: " + timeToWait + " seconds for " + ControlName + " to be available");
 		try {
 

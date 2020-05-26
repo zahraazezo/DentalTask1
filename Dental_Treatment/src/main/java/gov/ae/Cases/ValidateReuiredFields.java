@@ -70,19 +70,19 @@ public class ValidateReuiredFields {
         test.log(Status.INFO, " Click the confirm appointment button");
         confirmappointmentbtn = By.xpath(xml.getLocator("confirmappointmentbtn.xpath"));
         SeleniumUtils.wait(driver, confirmappointmentbtn, "confirm appointment button");
-        SeleniumUtils.clickElement(driver, confirmappointmentbtn, "confirm appointment button");
+        SeleniumUtils.pressElement(driver, confirmappointmentbtn, "confirm appointment button");
     }
 
     public void check_phone_contact() {
         test.log(Status.INFO, " select contact By phone ");
         contactbyphonechk = By.xpath(xml.getLocator("contactbyphonechk.xpath"));
         SeleniumUtils.wait(driver, contactbyphonechk, "contact by phone radio button");
-        SeleniumUtils.clickElement(driver, contactbyphonechk, "contact by phone radio button");
+        SeleniumUtils.pressElement(driver, contactbyphonechk, "contact by phone radio button");
 
         test.log(Status.INFO, " Click the confirm appointment button");
         confirmappointmentbtn = By.xpath(xml.getLocator("confirmappointmentbtn.xpath"));
         SeleniumUtils.wait(driver, confirmappointmentbtn, "confirm appointment button");
-        SeleniumUtils.clickElement(driver, confirmappointmentbtn, "confirm appointment button");
+        SeleniumUtils.pressElement(driver, confirmappointmentbtn, "confirm appointment button");
     }
 
 
