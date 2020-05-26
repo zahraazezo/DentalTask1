@@ -24,6 +24,7 @@ public class UserExperienceTestCases extends TestBase {
 
     @Test(priority = 1 )
     public void validate_three_clicks_navigation() {
+        report = ExtentManager.getExtentReports();
         test = report.createTest("Validate user can navigate to service page by 3 clicks");
         ExtentManager.setExtentTest(test);
         NavigateToServiceIn3Clicks userCases = new NavigateToServiceIn3Clicks(DriverManager.getDriver());
@@ -51,7 +52,6 @@ public class UserExperienceTestCases extends TestBase {
 
     @Test(priority = 4)
     public void validate_symptoms_required_field() {
-        report = ExtentManager.getExtentReports();
         test = report.createTest("Validate that the required fields have validation messages");
         ExtentManager.setExtentTest(test);
         ExtentTest node = test.createNode("validate symptoms validations");
