@@ -68,6 +68,7 @@ public class Navigation {
         SeleniumUtils.scrollDown(driver);
     }
 
+
     public void navigate_to_dental_treatment_service()
     {
         test.log(Status.INFO," search for the service name ");

@@ -3,10 +3,7 @@ package gov.ae.Tests;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import gov.ae.Cases.AbilityToMaxAndMinTheFontSize;
-import gov.ae.Cases.NavigateToServiceIn3Clicks;
-import gov.ae.Cases.UserCanLoginViaNationalID;
-import gov.ae.Cases.ValidateReuiredFields;
+import gov.ae.Cases.*;
 import gov.ae.ExtentListeners.ExtentManager;
 import gov.ae.base.TestBase;
 import gov.ae.utils.DriverManager;
@@ -85,6 +82,14 @@ public class UserExperienceTestCases extends TestBase {
         userCases.check_phone_contact();
         Assert.assertEquals(userCases.get_actual_contactbyphoneerrorlbl(),userCases.get_expected_contactbyphoneerrorlbl());
 
+    }
+
+    @Test(priority = 7)
+    public void validateAccessibilityIcon() {
+        test = report.createTest("validate Accessibility Icon");
+        ExtentManager.setExtentTest(test);
+        ValidateAccessibilityIcon validate = new ValidateAccessibilityIcon();
+        validate.checkAccessibilityIcon();
     }
 
 

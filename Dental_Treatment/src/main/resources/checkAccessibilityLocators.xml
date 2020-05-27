@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+<homepage>
+    <header>
+        <closebtn>
+            <xpath>//button[@class='btn btn-default' and contains(text(),"Close")]</xpath>
+        </closebtn>
+        <changeTextSizeControl>
+            <xpath>(//i[@class='fa fa-low-vision fa-lg'])</xpath>
+        </changeTextSizeControl>
+    </header>
+
+</homepage>
+</locators>
+
