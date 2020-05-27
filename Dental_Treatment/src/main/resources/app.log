@@ -604,3 +604,135 @@ Session ID: a263d785fb19ee196a5182f4e2f46bef
 12:45:19.211 INFO  SeleniumUtils -Waiting for max:: 30 seconds for confirm appointment button to be available
 12:45:19.235 INFO  SeleniumUtils -The control took  -  24 to be loaded
 12:45:19.235 INFO  SeleniumUtils -The confirm appointment button is pressed
+14:31:12.035 INFO  TestBase -Web application opened
+14:31:12.059 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:31:12.133 INFO  SeleniumUtils -The control took  -  69 to be loaded
+14:31:12.173 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:31:12.202 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+14:32:24.523 INFO  TestBase -Web application opened
+14:32:24.549 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:32:24.631 INFO  SeleniumUtils -The control took  -  78 to be loaded
+14:32:24.679 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:32:24.706 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+14:32:43.613 INFO  TestBase -Web application opened
+14:32:43.618 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:33:33.962 ERROR SeleniumUtils -The elementClose button of the welcome pop up not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id='buttonPlus'] (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bbd8172c6ba0787e0767b4da2ce8ed7b
+14:33:34.825 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:34:37.647 INFO  TestBase -Web application opened
+14:34:37.668 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:34:37.739 INFO  SeleniumUtils -The control took  -  68 to be loaded
+14:34:37.773 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:34:37.795 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+14:34:37.799 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:35:28.243 ERROR SeleniumUtils -The elementClose button of the welcome pop up not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id='buttonPlus'] (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59196}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7a841bcab7a5156b8243d2bd77ab83b8
+14:35:28.928 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:37:29.874 INFO  TestBase -Web application opened
+14:37:29.893 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:37:29.969 INFO  SeleniumUtils -The control took  -  74 to be loaded
+14:37:30.007 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:40:28.979 INFO  TestBase -Web application opened
+14:40:29.006 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:40:29.083 INFO  SeleniumUtils -The control took  -  75 to be loaded
+14:40:29.136 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:40:29.140 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:40:29.242 INFO  SeleniumUtils -The control took  -  102 to be loaded
+14:40:29.292 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:40:29.308 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+14:40:29.312 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:40:29.391 INFO  SeleniumUtils -The control took  -  79 to be loaded
+14:40:30.006 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:42:03.241 INFO  TestBase -Web application opened
+14:42:03.268 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:42:03.349 INFO  SeleniumUtils -The control took  -  78 to be loaded
+14:42:03.383 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:42:03.387 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:42:03.436 INFO  SeleniumUtils -The control took  -  49 to be loaded
+14:42:03.484 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:42:03.498 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+14:43:20.334 INFO  TestBase -Web application opened
+14:43:20.387 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:43:20.476 INFO  SeleniumUtils -The control took  -  84 to be loaded
+14:43:20.519 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:43:20.523 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:43:20.608 INFO  SeleniumUtils -The control took  -  85 to be loaded
+14:43:20.668 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:43:20.689 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+14:45:02.103 INFO  TestBase -Web application opened
+14:45:02.145 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:45:02.241 INFO  SeleniumUtils -The control took  -  92 to be loaded
+14:45:02.296 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:45:02.303 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:45:02.382 INFO  SeleniumUtils -The control took  -  79 to be loaded
+14:45:02.431 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:45:02.445 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+14:49:31.180 INFO  TestBase -Web application opened
+14:49:31.211 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:49:31.313 INFO  SeleniumUtils -The control took  -  96 to be loaded
+14:49:31.375 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:49:31.380 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:49:31.476 INFO  SeleniumUtils -The control took  -  96 to be loaded
+14:49:31.539 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:49:31.565 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+14:52:44.083 INFO  TestBase -Web application opened
+14:52:44.121 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:52:44.232 INFO  SeleniumUtils -The control took  -  105 to be loaded
+14:52:44.295 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:52:44.299 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:52:44.390 INFO  SeleniumUtils -The control took  -  91 to be loaded
+14:52:44.485 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:52:44.506 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+14:56:01.544 INFO  TestBase -Web application opened
+14:56:01.583 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:56:01.679 INFO  SeleniumUtils -The control took  -  93 to be loaded
+14:56:01.732 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:56:01.741 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+14:56:01.847 INFO  SeleniumUtils -The control took  -  105 to be loaded
+14:56:01.931 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+14:56:01.971 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+15:09:46.904 INFO  TestBase -Web application opened
+15:09:46.932 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+15:09:47.034 INFO  SeleniumUtils -The control took  -  98 to be loaded
+15:09:47.080 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+15:09:47.086 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+15:09:47.181 INFO  SeleniumUtils -The control took  -  95 to be loaded
+15:09:47.341 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+15:09:47.458 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+15:13:57.648 INFO  TestBase -Web application opened
+15:13:57.670 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+15:13:57.747 INFO  SeleniumUtils -The control took  -  74 to be loaded
+15:13:57.804 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+15:13:57.808 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+15:13:57.875 INFO  SeleniumUtils -The control took  -  67 to be loaded
+15:13:57.918 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+15:13:57.963 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+15:15:45.985 INFO  TestBase -Web application opened
+15:15:46.017 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+15:16:36.482 ERROR SeleniumUtils -The elementClose button of the welcome pop up not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: //button[@class='btn btn-default' and contains(text(),"Close")] (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bf8ecbea88a1439dc6290c85aefc9cc1
+15:16:36.518 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+15:16:36.521 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+15:16:36.554 INFO  SeleniumUtils -The control took  -  30 to be loaded
+15:16:36.583 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+15:16:36.593 INFO  SeleniumUtils -'Accessibility Icon' Element is Present
+15:18:12.841 INFO  TestBase -Web application opened
+15:18:12.871 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+15:18:12.968 INFO  SeleniumUtils -The control took  -  93 to be loaded
+15:18:13.010 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+15:18:13.013 INFO  SeleniumUtils -Waiting for max:: 50 seconds for Close button of the welcome pop up to be available
+15:18:13.079 INFO  SeleniumUtils -The control took  -  65 to be loaded
+15:18:13.156 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button was pressed successfully
+15:18:13.195 INFO  SeleniumUtils -'Accessibility Icon' Element is Present

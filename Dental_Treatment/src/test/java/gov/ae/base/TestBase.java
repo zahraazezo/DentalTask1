@@ -62,7 +62,7 @@ public class TestBase {
 
     public void setupChrome() {
 
-        System.setProperty("webdriver.chrome.driver", "./src/test/resources/executables/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "./src/test/resources/executables/chromedriver.exe");
         driver = new ChromeDriver();
     }
 
