@@ -35,7 +35,7 @@ public class ValidateAccessibilityIcon {
         return SeleniumUtils.isElementPresent(driver, accessibilityIcon, "Accessibility Icon");
     }
 
-    public void accessibility_plus_func()
+    private void accessibility_plus_func()
     {
 
         plusbtn = By.xpath(xml.getLocator("plusbtn.xpath"));
@@ -46,7 +46,7 @@ public class ValidateAccessibilityIcon {
 
     }
 
-    public void accessibility_minus_func()
+    private void accessibility_minus_func()
     {
         minusbtn = By.xpath(xml.getLocator("minusbtn.xpath"));
         SeleniumUtils.wait(driver, minusbtn, "Close button of the welcome pop up");
@@ -55,14 +55,32 @@ public class ValidateAccessibilityIcon {
 
     }
 
-    public void check_accessibility_minus_func(){
-
-        WebElement body = driver.findElement(By.xpath(".//div[@id='ctl00_Refferences1']//parent::body"));
-       System.out.println(body.getCssValue("font-size"));
-
-
-
+    public boolean checkAccessibilityFunc(){
+        return checkMinusFunc() && checkPlusFunc();
     }
 
+    private boolean checkMinusFunc ()
+    {
+        int beforeMinusCalling = this.getFontSize();
+        this.accessibility_minus_func();
+        int afterMinusCalling = this.getFontSize();
+        return afterMinusCalling < beforeMinusCalling;
+    }
+
+    private boolean checkPlusFunc ()
+    {
+        int beforePlusCalling = this.getFontSize();
+        this.accessibility_plus_func();
+        int afterPlusCalling = this.getFontSize();
+        return afterPlusCalling > beforePlusCalling;
+    }
+
+    private int getFontSize ()
+    {
+        WebElement body = driver.findElement(By.xpath(".//div[@id='ctl00_Refferences1']//parent::body"));
+        String currentFontString  = body.getCssValue("font-size");
+        int fontSize = Integer.parseInt(currentFontString.substring(0,currentFontString.length()-2));
+        return fontSize;
+    }
 
 }

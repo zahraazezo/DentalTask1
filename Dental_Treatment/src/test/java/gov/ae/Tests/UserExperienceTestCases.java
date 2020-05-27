@@ -91,7 +91,7 @@ public class UserExperienceTestCases extends TestBase {
         ExtentManager.setExtentTest(test);
         ValidateAccessibilityIcon validate = new ValidateAccessibilityIcon();
         validate.checkAccessibilityIcon();
-        validate.check_accessibility_minus_func();
+        validate.checkAccessibilityFunc();
 
     }
 
