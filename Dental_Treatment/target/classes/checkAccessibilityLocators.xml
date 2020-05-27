@@ -9,6 +9,14 @@
         <changeTextSizeControl>
             <xpath>(//i[@class='fa fa-low-vision fa-lg'])</xpath>
         </changeTextSizeControl>
+
+        <plusbtn>
+            <xpath>.//button[@id='buttonPlus']</xpath>
+        </plusbtn>
+
+        <minusbtn>
+            <xpath>.//button[@id='buttonMinus']</xpath>
+        </minusbtn>
     </header>
 
 </homepage>

@@ -19,9 +19,9 @@ public class UserExperienceTestCases extends TestBase {
     ExtentTest test;
     ExtentTest parentTest;
 
-    @Test(priority = 1 )
+    @Test(priority = 1,enabled = false)
     public void validate_three_clicks_navigation() {
-        report = ExtentManager.getExtentReports();
+
         test = report.createTest("Validate user can navigate to service page by 3 clicks");
         ExtentManager.setExtentTest(test);
         NavigateToServiceIn3Clicks userCases = new NavigateToServiceIn3Clicks(DriverManager.getDriver());
@@ -29,7 +29,7 @@ public class UserExperienceTestCases extends TestBase {
         Assert.assertTrue(count == 3);
     }
 
-    @Test(priority = 2 )
+    @Test(priority = 2 ,enabled = false)
     public void validate_national_identity_option() {
         test = report.createTest("Validate user can access services via national ID");
         ExtentManager.setExtentTest(test);
@@ -38,7 +38,7 @@ public class UserExperienceTestCases extends TestBase {
         Assert.assertTrue(valid);
 
     }
-    @Test(priority = 3 )
+    @Test(priority = 3 ,enabled = false)
     public void Ability_to_max_and_min_the_font_size() {
         test = report.createTest("Validate user can access services via national ID");
         ExtentManager.setExtentTest(test);
@@ -47,7 +47,7 @@ public class UserExperienceTestCases extends TestBase {
 
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4,enabled = false)
     public void validate_symptoms_required_field() {
         test = report.createTest("Validate that the required fields have validation messages");
         ExtentManager.setExtentTest(test);
@@ -61,7 +61,7 @@ public class UserExperienceTestCases extends TestBase {
 
 
     }
-    @Test(priority = 5 )
+    @Test(priority = 5 ,enabled = false)
     public void validate_contact_required_field() {
         ValidateReuiredFields userCases = new ValidateReuiredFields(DriverManager.getDriver());
         test = test.createNode("validate contact method validations");
@@ -73,7 +73,7 @@ public class UserExperienceTestCases extends TestBase {
 
     }
 
-    @Test(priority = 6)
+    @Test(priority = 6,enabled = false)
     public void validate_phone_required_field() {
         ValidateReuiredFields userCases = new ValidateReuiredFields(DriverManager.getDriver());
         test = test.createNode("validate contact method validations");
@@ -86,11 +86,19 @@ public class UserExperienceTestCases extends TestBase {
 
     @Test(priority = 7)
     public void validateAccessibilityIcon() {
+        report = ExtentManager.getExtentReports();
         test = report.createTest("validate Accessibility Icon");
         ExtentManager.setExtentTest(test);
         ValidateAccessibilityIcon validate = new ValidateAccessibilityIcon();
         validate.checkAccessibilityIcon();
+        validate.check_accessibility_minus_func();
+
     }
+
+
+
+
+
 
 
 
